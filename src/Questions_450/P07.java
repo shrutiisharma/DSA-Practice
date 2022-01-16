@@ -15,7 +15,7 @@ class P07 {
             int A=Integer.parseInt(S[0]);
             int B=Integer.parseInt(S[1]);
             int C=Integer.parseInt(S[2]);
-            Solution ob = new Solution();
+            Sol ob = new Sol();
             System.out.println(ob.middle(A,B,C));
         }
     }
@@ -24,7 +24,7 @@ class P07 {
 
 //User function Template for Java
 
-class Solution{
+class Sol{
     int middle(int A, int B, int C){
         if ((A>B && A<C) || (A<B && A>C)) return A;
         else if ((B>A && B<C) || (B<A && B>C)) return B;
