@@ -23,7 +23,7 @@ class P05
 {
     public static void sort012(int a[], int n)
     {
-        // code here
+        Arrays.sort(a);
     }
 }
 
@@ -41,7 +41,7 @@ class GFG {
             for(int i=0; i<n; i++){
                 arr[i] = Integer.parseInt(inputLine[i]);
             }
-            Solution ob=new Solution();
+            P05 ob=new P05();
             ob.sort012(arr, n);
             StringBuffer str = new StringBuffer();
             for(int i=0; i<n; i++){
