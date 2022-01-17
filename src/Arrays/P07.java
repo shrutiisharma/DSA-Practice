@@ -20,7 +20,8 @@ class P07 {
     }
 
     private static int maxIndexDiff(int A[], int N) {
-
+        //naive approach
+        //time complexity = n^2
         int k = 0;
         if (N > 1) {
             for (int i = 0; i < N; i++) {
