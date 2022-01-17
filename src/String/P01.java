@@ -1,8 +1,7 @@
 //REVERSE A STRING
 
-package Questions_450;// { Driver Code Starts
+package String;// { Driver Code Starts
 //Initial Template for Java
-import java.util.*;
 import java.io.*;
 import java.lang.*;
 

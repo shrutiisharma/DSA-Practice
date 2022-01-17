@@ -1,11 +1,10 @@
 //Middle of Three
 
-package Questions_450;
+package Arrays;
 
 import java.io.*;
-import java.util.*;
 
-class P07 {
+class P06 {
     public static void main(String args[]) throws IOException {
         BufferedReader read =
                 new BufferedReader(new InputStreamReader(System.in));

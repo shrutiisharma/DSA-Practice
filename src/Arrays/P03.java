@@ -1,6 +1,6 @@
 //Kth smallest element
 
-package Questions_450;
+package Arrays;
 
 // { Driver Code Starts
 //Initial Template for Java
@@ -9,7 +9,7 @@ package Questions_450;
 
 import java.io.*;
 import java.util.*;
-class P04 {
+class P03 {
     public static void main (String[] args) {
         Scanner sc=new Scanner(System.in);
         PrintWriter out = new PrintWriter(System.out);

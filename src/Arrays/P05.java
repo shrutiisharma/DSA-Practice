@@ -1,11 +1,11 @@
 //Move all negative numbers to beginning and positive to end with constant extra space
 
-package Questions_450;
+package Arrays;
 
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class P06 {
+public class P05 {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
         System.out.print("Enter length of array: ");

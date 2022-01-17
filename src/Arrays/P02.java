@@ -1,10 +1,10 @@
 //Maximum and minimum of an array
 
-package Questions_450;
+package Arrays;
 
 import java.util.Scanner;
 
-public class P03 {
+public class P02 {
     static int max;
     static int min;
     static int[] a;

@@ -1,6 +1,6 @@
 //Sort an array of 0s, 1s and 2s
 
-package Questions_450;
+package Arrays;
 
 // { Driver Code Starts
 //Initial template for Java
@@ -11,15 +11,12 @@ import java.util.*;
 
 // { Driver Code Starts
 //Initial template for Java
-
-import java.io.*;
-import java.util.*;
 
 
 // } Driver Code Ends
 //User function template for Java
 
-class P05
+class P04
 {
     public static void sort012(int a[], int n)
     {
@@ -41,7 +38,7 @@ class GFG {
             for(int i=0; i<n; i++){
                 arr[i] = Integer.parseInt(inputLine[i]);
             }
-            P05 ob=new P05();
+            P04 ob=new P04();
             ob.sort012(arr, n);
             StringBuffer str = new StringBuffer();
             for(int i=0; i<n; i++){

@@ -1,11 +1,11 @@
 //REVERSE AN ARRAY
 
-package Questions_450;
+package Arrays;
 
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class P02 {
+public class P01 {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
         System.out.print("Enter length of array: ");
